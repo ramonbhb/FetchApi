@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Minha Página</title>
+</head>
+<body>
+    <header>
+        <nav>  
+            <input placeholder="Digite o nome do usuário" required type="text" id="usuario" name="usuario">
+            <button onClick="pegarDadosGitHub()">Pegar Dados</button>
+        </nav>
+    </header>
+    <main>
+        <article>           
+            <section>
+                <h1>Dados do Usuário:</h1>
+                <p class="label">Login: </p><p id="login"></p>
+                <p class="label">Foto: </p><p id="foto"></p>
+                <p class="label">Quantidade de Seguidores:</p><p id="qtdFol"></p>
+                <p class="label">Quantidade Seguindo:</p><p id="qtdSeg"></p>
+            </section>
+            <section>
+                <h1>Seguidores:</h1>
+                <ul id="seguidores">
+                    
+                </ul>
+            </section>
+        </article>
+    </main>
+    <footer>
+        Todos os Direitos Reservados ao Deus Goku.
+    </footer>
+</body>
+</html>
